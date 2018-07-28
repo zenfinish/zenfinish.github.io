@@ -1,1 +1,69 @@
-<h1>Ini Halama Test Aja..</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zainal Abidin</title>
+        <link rel="icon" href="assets/images/logo-verd.jpeg">
+        <link href="assets/css/style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $(window).scroll(function () {
+                   if ($(this).scrollTop() > 0  ) {
+                      $('header').addClass('changeHeightHeader');
+                      $('header').removeClass('heightHeader');
+                      $('header img').addClass('change-atom-logo');
+                      $('header img').removeClass('atom-logo');
+                      $('header span').addClass('change-header-center');
+                      $('header span').removeClass('header-center');
+                   }
+                   if ($(this).scrollTop() < 1) {
+                      $('header').removeClass('changeHeightHeader');
+                      $('header').addClass('heightHeader');
+                      $('header img').removeClass('change-atom-logo');
+                      $('header img').addClass('atom-logo');
+                      $('header span').removeClass('change-header-center');
+                      $('header span').addClass('header-center');
+                   }
+                });
+             });
+        </script>
+    </head>
+        <body>
+            
+            <header class="heightHeader">
+                <img src="assets/images/profile.jpeg" class="atom-logo" />
+                <span class="header-center"><a href="#">Visit My BLOG</a></span>
+            </header>
+
+            <section>
+                <div style="height: 1000px;">
+                    <div class="card">
+                        <span style="color:blueviolet;">I'm</span> <span style="color: red;">A</span> <span  style="color: cornflowerblue;">Programmer</span> <span style="color: darkorange;">Now</span> <span>!</span>
+                    </div>
+                    <div class="card2">
+                        
+                    </div>
+                    <div class="card2">
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <footer>
+                <div class="left">
+                    Hi, I'm Zainal Abidin,<br>Front & Back End Engineer based in Lampung, Indonesia.<br>I made Web Apps and React Native Mobile Apps.
+                </div>
+                <div class="center">copyright &copy; by <a href="#">Zainal Abidin</a></div>
+                <div class="right">
+                    <span class="social-icons">
+                        <a target="_top" href="mailto:zen.finish@gmail.com"><i class="fa fa-envelope"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/zenfinish"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" href="https://github.com/zenfinish"><i class="fa fa-github"></i></a>
+                    </span>
+                </div>
+            </footer>
+
+        </body>
+</html>      
