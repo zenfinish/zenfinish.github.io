@@ -78,7 +78,7 @@ section{
 }
 
 .card2{
-	width: 75%;height: 300px;
+	width: 75%;height: 500px;
 	border-radius: 10px;
 	background: #FFFFFF;
 	margin: 30px auto;
@@ -86,6 +86,24 @@ section{
 	font-size: 50px;
 	font-weight: bold;
 	line-height: 300px;
+}
+
+.card2 .content{
+	text-align: left;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.card2 img{
+	height: auto; width: 500px;
+}
+
+.card2 .isi-content{
+	float: left;
+	line-height: 20px;
+	height: 200px;
+	font-weight: normal;
+	font-size: 16px;
 }
 
 footer{
