@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Web Aplication</title>
+    </head>
+    <body onload="listData(database); optionData(database);">
+        <table border="1" id="listTable">
+            <tr>
+                <td colspan="4" align="center">Aplikasi Penjualan Rokok</td>
+            </tr>
+            <tr>
+                <td>Kode</td>
+                <td>Nama</td>
+                <td>Stok</td>
+                <td>Harga Satuan</td>
+            </tr>
+        </table><br>
+        <table id="inputTable">
+            <tr>
+                <td>Nama Barang</td>
+                <td>Jumlah</td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="listSelect">
+                        <option>- Pilih Barang -</option>
+                    </select>
+                </td>
+                <td><input type="text" /></td>
+            </tr>
+        </table>
+        <div><button id="buttonAdd">Tambah Order</button> <button>Cetak</button></div>
+    </body>
+    <script src="database.js"></script>
+    <script src="program.js"></script>
+</html>      
